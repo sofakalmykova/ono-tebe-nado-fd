@@ -31,10 +31,6 @@
   text-underline-offset: 4px;
 }
 
-.link-normal {
-  text-decoration-thickness: 1px;
-}
-
 .link-active {
   text-decoration: none;
 }
@@ -202,6 +198,8 @@
   font-weight: 700;
   line-height: 120%;
   text-transform: uppercase;
+  text-decoration: underline;
+  text-underline-offset: 4px;
   z-index: 2;
 }
 
@@ -251,6 +249,7 @@
   padding-top: 101px;
   justify-content: flex-end;
 }
+
 .background-for-logo {
   display: flex;
   background-color: #000000;
@@ -261,6 +260,7 @@
   align-items: center;
   justify-self: center;
 }
+
 .about-logo {
   width: 148px;
   height: 114px;
